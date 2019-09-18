@@ -5,6 +5,9 @@
            fetch="https://github.com/"
            revision="lineage-19.1" />
 
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" remote="LineageOS" />
+
   <!-- External -->
   <project path="external/android-nn-driver" name="LineageOS/android_external_android-nn-driver" groups="pdk-lassen" remote="LineageOS" />
   <project path="external/armnn" name="LineageOS/android_external_armnn" groups="pdk-lassen" remote="LineageOS" />
