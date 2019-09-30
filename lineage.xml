@@ -152,6 +152,7 @@
   <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" remote="LineageOS" />
   <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" remote="LineageOS" />
   <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" remote="LineageOS" />
+  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="LineageOS" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="LineageOS" />
