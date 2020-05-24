@@ -131,6 +131,7 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 
   <!-- System -->
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/logging" />
