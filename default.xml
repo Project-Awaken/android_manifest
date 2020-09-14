@@ -827,4 +827,6 @@
 
   <!-- Awaken -->
   <include name="remove.xml" />
+  <include name="awaken.xml" />
+
 </manifest>

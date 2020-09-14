@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- GitHub (Project-Awaken) -->
+  <remote  name="awaken"
+           revision="11"
+           fetch="https://github.com/Project-Awaken/" />
+
+  <!--ART-->
+  <project path="art" name="android_art" remote="awaken" />
+
+  <!--Bionic-->
+  <project path="bionic" name="android_bionic" remote="awaken" />
+
+  <!-- Build -->
+
+  <project path="build/make" name="android_build" remote="awaken" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="awaken" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- External -->
+  <project path="external/selinux" name="android_external_selinux" remote="awaken" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="awaken" />  
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="awaken" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="android_manifest" remote="awaken" />
+
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="awaken" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="awaken" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="awaken" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="awaken" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="awaken" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="awaken" />
+
+  <!-- System -->
+  <project path="system/core" name="android_system_core" remote="awaken" />
+
+  <!-- Vendor -->
+  <project path="vendor/awaken" name="android_vendor_awaken" remote="awaken"  />
+
+  <!-- CAF -->
+
+  <remote name="caf"
+          fetch="https://source.codeaurora.org/quic/la"
+          revision="refs/tags/LA.UM.8.12.r1-13900-sm8250.0" />
+
+  <!-- Device -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="awaken"  />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="awaken" revision="11-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="awaken" revision="11-legacy-um" />
+
+  <!-- External -->
+  <project path="external/json-c" name="android_external_json-c" remote="awaken" />
+
+  <!-- Hardware -->
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="awaken" >
+    <!-- Add guard for AOSP hardware/qcom directory. -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- For AOSP SDM845/SM8150, we override os_pickup.mk. -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <!-- Add guards for CAF repositories. -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="awaken" />
+  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="awaken" revision="11-caf" />
+  <project path="hardware/qcom-caf/camera" name="android_hardware_qcom_camera" remote="awaken" />
+  <project path="hardware/qcom-caf/keymaster" name="android_hardware_qcom_keymaster" remote="awaken" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="11-caf-8996" remote="awaken" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="11-caf-8996" remote="awaken"  />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" revision="11-caf-8996" remote="awaken" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="11-caf-8998" remote="awaken" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="11-caf-8998" remote="awaken"  />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="11-caf-8998" remote="awaken" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="11-caf-sdm845" remote="awaken" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="11-caf-sdm845" remote="awaken"  />
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="11-caf-sdm845" remote="awaken" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="11-caf-sm8150" remote="awaken" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="11-caf-sm8150" remote="awaken"  />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="11-caf-sm8150" remote="awaken" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="awaken" />
+
+  <!-- System -->
+  <project path="system/qcom" name="android_system_qcom" remote="awaken" />
+
+  <!-- Vendor -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="awaken" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="awaken" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="awaken" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="awaken" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="awaken" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="awaken" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="awaken" />
+
+</manifest>

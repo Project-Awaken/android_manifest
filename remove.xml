@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- ART -->
+  <remove-project name="platform/art" />
+
+  <!-- Bionic -->
+  <remove-project name="platform/bionic" />
+  
+  <!-- Build -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
@@ -60,7 +70,31 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
+
+  <!-- External -->
+  <remove-project name="platform/external/google-fonts/arbutus-slab" />
+  <remove-project name="platform/external/google-fonts/arvo" />
+  <remove-project name="platform/external/google-fonts/barlow" />
+  <remove-project name="platform/external/google-fonts/lato" />
+  <remove-project name="platform/external/google-fonts/rubik" />
+  <remove-project name="platform/external/google-fonts/zilla-slab" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinycompress" />
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/base" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+
   <!-- Prebuilts -->
+  <remove-project name="kernel/prebuilts/4.19/arm64" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
@@ -70,5 +104,8 @@
   <remove-project name="platform/prebuilts/gdb/darwin-x86" />
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+
+  <!-- System -->
+  <remove-project name="platform/system/core" />
 
 </manifest>
