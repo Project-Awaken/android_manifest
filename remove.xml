@@ -6,7 +6,10 @@
 
   <!-- Bionic -->
   <remove-project name="platform/bionic" />
-  
+
+  <!-- Bootable -->
+  <remove-project name="platform/bootable/recovery" />
+
   <!-- Build -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
@@ -88,9 +91,18 @@
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/native" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
 
   <!-- Prebuilts -->
   <remove-project name="kernel/prebuilts/4.19/arm64" />
@@ -107,5 +119,7 @@
 
   <!-- System -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/bt" />
 
 </manifest>
