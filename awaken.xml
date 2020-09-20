@@ -47,6 +47,7 @@
   <project path="manifest" name="android_manifest" remote="awaken" />
 
   <!-- Hardware -->
+  <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="awaken" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="awaken" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="awaken" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="awaken" />
