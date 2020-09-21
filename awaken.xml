@@ -37,6 +37,7 @@
   <!-- External -->
   <project path="external/selinux" name="android_external_selinux" remote="awaken" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="awaken" />  
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="awaken" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="awaken" />
