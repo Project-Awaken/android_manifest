@@ -80,20 +80,24 @@
   <remove-project name="platform/hardware/qcom/media" />
 
   <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/google-fonts/arbutus-slab" />
   <remove-project name="platform/external/google-fonts/arvo" />
   <remove-project name="platform/external/google-fonts/barlow" />
   <remove-project name="platform/external/google-fonts/lato" />
   <remove-project name="platform/external/google-fonts/rubik" />
   <remove-project name="platform/external/google-fonts/zilla-slab" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
@@ -108,6 +112,7 @@
 
   <!-- Prebuilts -->
   <remove-project name="kernel/prebuilts/4.19/arm64" />
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
