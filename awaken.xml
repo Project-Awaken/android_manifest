@@ -53,6 +53,7 @@
 
   <!-- Hardware -->
   <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="awaken" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="awaken" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="awaken" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="awaken" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="awaken" />
