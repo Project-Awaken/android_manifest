@@ -154,6 +154,5 @@
 
   <!-- Gapps -->
   <project path="vendor/google/gms" name="android_vendor_google_gms" remote="gitlab"  />
-  <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="gitlab"  />
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="gitlab"  />
 </manifest>
