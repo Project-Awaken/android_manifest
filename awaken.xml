@@ -41,6 +41,7 @@
   <project path="external/zlib" name="android_external_zlib" remote="awaken" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="awaken" />
   <project path="external/libpng" name="android_external_libpng" remote="awaken" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="awaken" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="awaken" />
