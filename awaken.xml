@@ -60,6 +60,7 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="awaken" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="awaken" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="awaken" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="awaken" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="awaken" />
