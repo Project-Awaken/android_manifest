@@ -84,6 +84,7 @@
   <project path="system/vold" name="android_system_vold" remote="awaken" />
   <project path="system/bt" name="android_system_bt" remote="awaken" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="awaken" />
+  <project path="system/extras" name="android_system_extras" remote="awaken" />
 
   <!-- Vendor -->
   <project path="vendor/awaken" name="android_vendor_awaken" remote="awaken"  />
