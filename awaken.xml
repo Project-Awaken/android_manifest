@@ -6,6 +6,8 @@
            revision="11"
            fetch="https://github.com/Project-Awaken/" />
 
+  <project path="development" name="android_development" remote="awaken" />
+
   <!--ART-->
   <project path="art" name="android_art" remote="awaken" />
 
