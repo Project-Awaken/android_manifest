@@ -125,8 +125,12 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
+  <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
+  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="LineageOS" />
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" remote="LineageOS" />
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="LineageOS" />
   <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="LineageOS" />
+  <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" remote="LineageOS" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="LineageOS" />
   <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" remote="LineageOS" />
   <project path="packages/modules/common" name="LineageOS/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
