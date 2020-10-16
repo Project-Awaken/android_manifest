@@ -72,6 +72,7 @@
   <project path="prebuilts/tools-awaken" name="android_prebuilts_tools-awaken" remote="awaken" />
 
   <!-- Packages -->
+  <project path="packages/apps/AwakenSettings" name="android_packages_apps_AwakenSettings" remote="awaken" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="awaken" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="awaken" />
   <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="awaken" />
