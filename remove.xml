@@ -99,6 +99,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/sqlite" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
