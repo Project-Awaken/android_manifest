@@ -116,6 +116,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/Stk" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
@@ -143,5 +144,6 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/update_engine" />
 
 </manifest>

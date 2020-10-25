@@ -83,6 +83,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="awaken" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="awaken" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="awaken" />
+  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="awaken" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="awaken" />
   <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="awaken" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="awaken" />
@@ -98,6 +99,7 @@
   <project path="system/bt" name="android_system_bt" remote="awaken" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="awaken" />
   <project path="system/extras" name="android_system_extras" remote="awaken" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="awaken" />
 
   <!-- Vendor -->
   <project path="vendor/awaken" name="android_vendor_awaken" remote="awaken"  />
