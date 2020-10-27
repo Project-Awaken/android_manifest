@@ -173,6 +173,6 @@
            fetch="https://gitlab.com/saikiran2001/" />
 
   <!-- Gapps -->
-  <project path="vendor/google/gms" name="android_vendor_google_gms" remote="gitlab"  />
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="gitlab"  />
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="gitlab"  />
 </manifest>
