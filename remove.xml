@@ -99,6 +99,8 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/sqlite" />
 
@@ -143,6 +145,8 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/hardware/interfaces" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/update_engine" />
