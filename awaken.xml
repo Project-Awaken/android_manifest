@@ -38,6 +38,7 @@
 
   <!-- External -->
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="awaken" />
+  <project path="external/exfat" name="android_external_exfat" remote="awaken" />
   <project path="external/selinux" name="android_external_selinux" remote="awaken" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="awaken" />  
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="awaken" />
