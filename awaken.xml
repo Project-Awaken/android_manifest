@@ -100,6 +100,7 @@
   <project path="system/core" name="android_system_core" remote="awaken" />
   <project path="system/vold" name="android_system_vold" remote="awaken" />
   <project path="system/bt" name="android_system_bt" remote="awaken" />
+  <project path="system/media" name="android_system_media" remote="awaken" />
   <project path="system/netd" name="android_system_netd" remote="awaken" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="awaken" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="awaken" />
