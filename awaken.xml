@@ -181,5 +181,8 @@
 
   <!-- Gapps -->
   <project path="vendor/gapps" name="android_vendor_gapps" remote="gitlab"  />
+  <project path="vendor/prebuilts" name="vendor_prebuilts" remote="awaken"  />  
+
+  <!-- Face unlock -->
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="gitlab"  />
 </manifest>
