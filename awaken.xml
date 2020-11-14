@@ -39,6 +39,7 @@
   <!-- External -->
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="awaken" />
   <project path="external/exfat" name="android_external_exfat" remote="awaken" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="awaken" />
   <project path="external/selinux" name="android_external_selinux" remote="awaken" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="awaken" />  
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="awaken" />
@@ -146,6 +147,7 @@
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="awaken" revision="11-caf" />
   <project path="hardware/qcom-caf/camera" name="android_hardware_qcom_camera" remote="awaken" />
   <project path="hardware/qcom-caf/keymaster" name="android_hardware_qcom_keymaster" remote="awaken" />
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="awaken" />
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="11-caf-8996" remote="awaken" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="11-caf-8996" remote="awaken"  />
   <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" revision="11-caf-8996" remote="awaken" />
@@ -174,6 +176,7 @@
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="awaken" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="awaken" />
   <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="awaken" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="awaken" />
 
   <!-- Gitlab -->
   <remote  name="gitlab"
