@@ -32,6 +32,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="build/blueprint" name="android_build_blueprint" remote="awaken" />
 
   <!-- Device -->
   <project path="device/awaken/sepolicy" name="android_device_awaken_sepolicy" remote="awaken"  />
@@ -56,7 +57,9 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="awaken" />
   <project path="frameworks/native" name="android_frameworks_native" remote="awaken" />
   <project path="frameworks/av" name="android_frameworks_av" remote="awaken" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="awaken" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="awaken" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="awaken" />
 
   <!-- Manifest -->
   <project path="manifest" name="android_manifest" remote="awaken" />
@@ -76,6 +79,8 @@
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="awaken" />
   <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="awaken" />
   <project path="prebuilts/tools-awaken" name="android_prebuilts_tools-awaken" remote="awaken" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" clone-depth="1" remote="awaken" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="awaken" />
 
   <!-- Packages -->
   <project path="packages/apps/AwakenSettings" name="android_packages_apps_AwakenSettings" remote="awaken" />
@@ -90,6 +95,7 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="awaken" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="awaken" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="awaken" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="awaken" />
   <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="awaken" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="awaken" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="awaken" />
@@ -105,9 +111,14 @@
   <project path="system/media" name="android_system_media" remote="awaken" />
   <project path="system/netd" name="android_system_netd" remote="awaken" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="awaken" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="awaken" />
+  <project path="system/libufdt" name="android_system_libufdt" remote="awaken" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="awaken" />
   <project path="system/extras" name="android_system_extras" remote="awaken" />
   <project path="system/update_engine" name="android_system_update_engine" remote="awaken" />
+
+  <!-- Tools repos -->
+  <project path="tools/metalava" name="android_tools_metalava" remote="awaken" />
 
   <!-- Vendor -->
   <project path="vendor/awaken" name="android_vendor_awaken" remote="awaken"  />
