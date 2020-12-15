@@ -195,7 +195,7 @@
            fetch="https://gitlab.com/saikiran2001/" />
 
   <!-- Gapps -->
-  <project path="vendor/gapps" name="android_vendor_gapps" remote="gitlab"  />
+  <project path="vendor/gapps" name="android_vendor_gapps" clone-depth="1" remote="gitlab"  />
   <project path="vendor/prebuilts" name="vendor_prebuilts" remote="awaken"  />  
 
   <!-- Face unlock -->
