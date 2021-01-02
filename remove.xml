@@ -151,6 +151,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/extras" />
