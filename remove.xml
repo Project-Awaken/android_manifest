@@ -98,6 +98,8 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/sqlite" />
