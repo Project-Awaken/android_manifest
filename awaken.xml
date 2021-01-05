@@ -135,7 +135,7 @@
 
   <remote name="caf"
           fetch="https://source.codeaurora.org/quic/la"
-          revision="refs/tags/LA.UM.8.12.r1-13900-sm8250.0" />
+          revision="refs/tags/LA.UM.9.3.r1-00500-sdm845.0" />
 
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="awaken"  />
@@ -156,9 +156,9 @@
     <!-- Add guards for CAF repositories. -->
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
   </project>
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="awaken" revision="11-caf" />
