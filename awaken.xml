@@ -204,6 +204,9 @@
   <project path="vendor/gapps" name="android_vendor_gapps" clone-depth="1" remote="gitlab"  />
   <project path="vendor/prebuilts" name="vendor_prebuilts" remote="awaken"  />  
 
+  <!-- Live wallpapers -->
+  <project path="packages/apps/PixelLiveWallpaper" name="packages_apps_PixelLiveWallpaper" remote="gitlab"  />
+
   <!-- Face unlock -->
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="gitlab"  />
 </manifest>
