@@ -3,7 +3,7 @@
 
   <!-- GitHub (LineageOS) -->
   <remote  name="lineage"
-           revision="lineage-18.0"
+           revision="lineage-18.1"
            fetch="https://github.com/LineageOS" />
 
   <!-- External -->
