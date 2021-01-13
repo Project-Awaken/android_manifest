@@ -118,6 +118,7 @@
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="awaken" />
   <project path="system/netd" name="android_system_netd" remote="awaken" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="awaken" />
+  <project path="system/security" name="android_system_security" remote="awaken" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="awaken" />
   <project path="system/libufdt" name="android_system_libufdt" remote="awaken" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="awaken" />
