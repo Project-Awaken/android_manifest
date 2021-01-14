@@ -77,6 +77,8 @@
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="awaken" />
   <project path="hardware/ril" name="android_hardware_ril" remote="awaken" />
 
+  <project path="libcore" name="android_libcore" remote="awaken" />
+
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="awaken" />
   <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="awaken" />
