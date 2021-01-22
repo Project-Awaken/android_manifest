@@ -29,6 +29,11 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
 
   <!-- Packages -->
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
+
+  <!-- Vendor -->
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" remote="lineage" />
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom,qcom_fm" remote="lineage" />
 
 </manifest>
