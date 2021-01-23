@@ -119,6 +119,8 @@
   <project path="system/bpf" name="android_system_bpf" remote="awaken" />
   <project path="system/bpfprogs" name="android_system_bpfprogs" remote="awaken" />
   <project path="system/bt" name="android_system_bt" remote="awaken" />
+  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="awaken" />
+  <project path="system/iorap" name="android_system_iorap" remote="awaken" />
   <project path="system/media" name="android_system_media" remote="awaken" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="awaken" />
   <project path="system/netd" name="android_system_netd" remote="awaken" />
