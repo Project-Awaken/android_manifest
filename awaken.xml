@@ -52,6 +52,7 @@
   <project path="external/toybox" name="android_external_toybox" remote="awaken" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="awaken" />
   <project path="external/scudo" name="android_external_scudo" remote="awaken" />
+  <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="awaken" />
   <project path="external/zlib" name="android_external_zlib" remote="awaken" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="awaken" />
   <project path="external/libpng" name="android_external_libpng" remote="awaken" />
