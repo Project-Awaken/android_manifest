@@ -47,6 +47,8 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="awaken" />
   <project path="external/pulse" name="android_external_pulse" remote="awaken" />
   <project path="external/cpu_features" name="android_external_cpu_features" remote="awaken" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="awaken" />
+  <project path="external/libyuv" name="android_external_libyuv" remote="awaken" />
   <project path="external/selinux" name="android_external_selinux" remote="awaken" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="awaken" />  
   <project path="external/toybox" name="android_external_toybox" remote="awaken" />
@@ -65,6 +67,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="awaken" />
   <project path="frameworks/native" name="android_frameworks_native" remote="awaken" />
   <project path="frameworks/av" name="android_frameworks_av" remote="awaken" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="awaken" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="awaken" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="awaken" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="awaken" />

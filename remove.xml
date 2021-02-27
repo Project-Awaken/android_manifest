@@ -89,6 +89,8 @@
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/libyuv" />
+  <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/google-fonts/arbutus-slab" />
   <remove-project name="platform/external/google-fonts/arvo" />
   <remove-project name="platform/external/google-fonts/barlow" />
@@ -114,6 +116,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
