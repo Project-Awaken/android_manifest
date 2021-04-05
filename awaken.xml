@@ -115,6 +115,7 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="awaken" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="awaken" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="awaken" />
+  <project path="packages/apps/GamingMode" name="android_packages_apps_GamingMode" remote="awaken" />
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="awaken" />
