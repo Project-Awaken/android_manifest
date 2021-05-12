@@ -218,7 +218,7 @@
   <!-- Gitlab -->
   <remote  name="gitlab"
            revision="11"
-           fetch="https://gitlab.com/saikiran2001/" />
+           fetch="https://gitlab.com/project-awaken/" />
 
   <!-- Gapps -->
   <project path="vendor/gapps" name="android_vendor_gapps" clone-depth="1" remote="gitlab"  />
@@ -228,5 +228,6 @@
   <project path="packages/apps/PixelLiveWallpaper" name="packages_apps_PixelLiveWallpaper" remote="gitlab"  />
 
   <!-- Face unlock -->
-  <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="gitlab"  />
+  <project path="external/faceunlock" name="external_faceunlock" remote="gitlab" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_faceunlockservice" remote="gitlab" />
 </manifest>
