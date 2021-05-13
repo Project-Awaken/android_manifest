@@ -192,14 +192,12 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="11-caf-sm8150" remote="awaken" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="11-caf-sm8150" remote="awaken"  />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="11-caf-sm8150" remote="awaken" />
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="awaken" />
 
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" remote="awaken" />
 
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="awaken"  />
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="awaken" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="awaken" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="awaken" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="awaken" />
