@@ -39,8 +39,6 @@
 
   <!-- External -->
   <project path="external/boringssl" name="android_external_boringssl" remote="awaken" />
-  <project path="external/cldr" name="android_external_cldr" remote="awaken" />
-  <project path="external/icu" name="android_external_icu" remote="awaken" />
   <project path="external/perfetto" name="android_external_perfetto" remote="awaken" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="awaken" />
   <project path="external/exfat" name="android_external_exfat" remote="awaken" />
@@ -132,7 +130,6 @@
   <project path="system/netd" name="android_system_netd" remote="awaken" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="awaken" />
   <project path="system/security" name="android_system_security" remote="awaken" />
-  <project path="system/timezone" name="android_system_timezone" remote="awaken" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="awaken" />
   <project path="system/libufdt" name="android_system_libufdt" remote="awaken" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="awaken" />
