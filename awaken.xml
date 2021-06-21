@@ -41,7 +41,6 @@
   <project path="external/boringssl" name="android_external_boringssl" remote="awaken" />
   <project path="external/perfetto" name="android_external_perfetto" remote="awaken" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="awaken" />
-  <project path="external/exfat" name="android_external_exfat" remote="awaken" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="awaken" />
   <project path="external/pulse" name="android_external_pulse" remote="awaken" />
   <project path="external/cpu_features" name="android_external_cpu_features" remote="awaken" />
@@ -195,19 +194,10 @@
 
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="awaken"  />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="awaken" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="awaken" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="awaken" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="awaken" />
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="awaken" />
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="awaken" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="awaken" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="awaken" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="awaken" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="awaken" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="awaken" />
-  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="awaken" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="awaken" />
 
   <!-- Gitlab -->
   <remote  name="gitlab"
