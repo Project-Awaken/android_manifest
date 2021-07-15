@@ -169,6 +169,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
@@ -188,6 +190,11 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="11-caf-sm8150" remote="awaken" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="11-caf-sm8150" remote="awaken"  />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="11-caf-sm8150" remote="awaken" />
+
+  <!-- SDM660-4.19 HALs -->  
+  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="awaken" revision="11-caf-sdm660-4.19" />
+  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="awaken" revision="11-caf-sdm660-4.19" />
+  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="awaken" revision="11-caf-sdm660-4.19" />
 
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" remote="awaken" />
