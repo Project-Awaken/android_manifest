@@ -1092,4 +1092,9 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- AwakenOS -->
+  <include name="remove.xml" />
+  <include name="awaken.xml" />
+  <include name="lineage.xml" />
+
 </manifest>
