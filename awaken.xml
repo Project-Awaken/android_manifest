@@ -52,6 +52,7 @@
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="awaken" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="awaken" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="awaken" />
+  <project path="external/tinyxml" name="android_external_tinyxml" groups="pdk" remote="awaken" />
   <project path="external/themelib" name="android_external_themelib" groups="pdk" remote="awaken" />
 
   <!-- Frameworks -->
