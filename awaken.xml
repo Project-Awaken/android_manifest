@@ -210,7 +210,7 @@
   <!-- Gitlab -->
   <remote  name="gitlab"
            revision="11"
-           fetch="https://gitlab.com/project-awaken/" />
+           fetch="https://gitlab.com/project-awaken-eleven/" />
 
   <!-- Gapps -->
   <project path="vendor/gapps" name="android_vendor_gapps" clone-depth="1" remote="gitlab"  />
