@@ -65,6 +65,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="awaken" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="awaken" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="awaken" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="12-caf-msm8998" remote="awaken" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="12-caf" remote="awaken" />
 
   <!-- Packages -->
@@ -74,6 +75,7 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="awaken" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="awaken" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="awaken" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="awaken" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" groups="pdk" remote="awaken" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="awaken" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="awaken" />
