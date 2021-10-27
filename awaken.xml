@@ -70,13 +70,17 @@
 
   <!-- Packages -->
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="awaken" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="awaken" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="awaken" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="awaken" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="awaken" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="awaken" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="awaken" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="awaken" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="awaken" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="awaken" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" groups="pdk" remote="awaken" />
+  <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="awaken" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="awaken" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="awaken" />
 
@@ -92,6 +96,7 @@
 
   <!-- Vendor -->
   <project path="vendor/awaken" name="android_vendor_awaken" remote="awaken" />
+  <project path="vendor/support" name="android_vendor_support" remote="awaken" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="awaken" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="awaken" />
   <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" clone-depth="1" />
