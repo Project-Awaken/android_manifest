@@ -71,7 +71,6 @@
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="awaken" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="awaken" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="awaken" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="12-caf-msm8998" remote="awaken" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="12-caf" remote="awaken" />
 
