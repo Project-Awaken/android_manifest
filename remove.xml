@@ -64,6 +64,7 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/sqlite" />

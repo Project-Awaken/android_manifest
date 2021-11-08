@@ -13,6 +13,7 @@
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="qcom,pdk-qcom" remote="LineageOS" revision="lineage-18.1" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" groups="pdk" remote="LineageOS" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,pdk-qcom" remote="LineageOS" />
+  <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="LineageOS" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="LineageOS" revision="lineage-18.1" />
 
   <!-- Hardware -->
