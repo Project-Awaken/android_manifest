@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/tnI2yLM.jpg"/>
+  <img src="https://i.imgur.com/lyJkVeK.png"/>
 </p>
 
 We aim to bring a more consistent, fluent and smooth experience with all your must-have customizations, for you, for the community, and for everyone.
@@ -19,12 +19,6 @@ Prior to building, you will need basic knowledge of [Git](https://www.atlassian.
 ```
 repo init -u https://github.com/Project-Awaken/android_manifest -b 12
 ```
-&nbsp; &nbsp; &nbsp; To save more time and space, you can do a shallow clone using
-
-```
-repo init --depth=1 -u https://github.com/Project-Awaken/android_manifest -b 12
-```
-
 2. To sync source, enter
 
 ```
