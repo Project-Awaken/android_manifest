@@ -51,6 +51,7 @@
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="awaken" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="awaken" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="awaken" />
+  <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="awaken" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="awaken" />
   <project path="external/tinyxml" name="android_external_tinyxml" groups="pdk" remote="awaken" />
   <project path="external/themelib" name="android_external_themelib" groups="pdk" remote="awaken" />
@@ -99,6 +100,7 @@
   <!-- Vendor -->
   <project path="vendor/awaken" name="android_vendor_awaken" remote="awaken" />
   <project path="vendor/support" name="android_vendor_support" remote="awaken" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="awaken" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="awaken" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="awaken" />
   <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" clone-depth="1" />
