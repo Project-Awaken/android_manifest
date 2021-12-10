@@ -87,6 +87,7 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="awaken" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="awaken" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="awaken" />
+  <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="awaken" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="awaken" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="awaken" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="awaken" />
