@@ -93,6 +93,7 @@
   <remove-project name="platform/hardware/qcom/sm7250/gps" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/Dialer" />
