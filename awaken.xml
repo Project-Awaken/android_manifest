@@ -96,7 +96,6 @@
 
   <!-- System -->
   <project path="system/core" name="android_system_core" groups="pdk" remote="awaken" />
-  <project path="system/logging" name="android_system_logging" groups="pdk" remote="awaken" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" groups="pdk" remote="awaken" />
   <project path="system/netd" name="android_system_netd" remote="awaken" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="awaken" />
