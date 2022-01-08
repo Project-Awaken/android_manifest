@@ -99,7 +99,6 @@
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" groups="pdk" remote="awaken" />
   <project path="system/netd" name="android_system_netd" remote="awaken" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="awaken" />
-  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="awaken" />
   <project path="system/update_engine" name="android_system_update_engine" remote="awaken" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="awaken" />
 
