@@ -113,5 +113,6 @@
   <project path="external/jemalloc_new" name="ProtonAOSP/android_external_jemalloc_new" groups="pdk" remote="github" revision="sc" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" groups="pdk" remote="github" revision="sc" />
   <project path="external/zlib-ng" name="ProtonAOSP/android_external_zlib-ng" groups="pdk" remote="github" revision="sc" />
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" groups="pdk" remote="github" revision="main" />
 
 </manifest>
