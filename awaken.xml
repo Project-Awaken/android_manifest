@@ -88,4 +88,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="awaken" />
   <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" clone-depth="1" />
 
+  <!-- ProtonAosp -->
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" groups="pdk" remote="github" revision="main" />
+
 </manifest>
