@@ -89,6 +89,8 @@
   <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" clone-depth="1" />
 
   <!-- ProtonAosp -->
+  <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" groups="pdk" remote="github" revision="sc-v2" />
+  <project path="external/themelib" name="ProtonAOSP/android_external_themelib" groups="pdk" remote="github" revision="sc-v2" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" groups="pdk" remote="github" revision="main" />
 
 </manifest>
