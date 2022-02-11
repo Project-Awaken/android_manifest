@@ -29,6 +29,9 @@
   <project path="external/vim" name="LineageOS/android_external_vim" remote="LineageOS" />
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="LineageOS" />
 
+  <!-- Frameworks -->
+  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="LineageOS" />
+
   <!-- Hardware -->
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="LineageOS" />
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="LineageOS" />
