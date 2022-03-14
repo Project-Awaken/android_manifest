@@ -2,11 +2,13 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
   <default revision="refs/tags/android-12.1.0_r2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r2" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1103,5 +1105,10 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- AwakenOS -->
+  <include name="remove.xml" />
+  <include name="awaken.xml" />
+  <include name="lineage.xml" />
 
 </manifest>
