@@ -88,6 +88,10 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="awaken" />
   <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" clone-depth="1" />
 
+  <!-- GrapheneOS -->
+  <project path="external/Apps" name="GrapheneOS/platform_external_Apps" remote="github" revision="12.1" />
+  <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="12.1" />
+
   <!-- ProtonAosp -->
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" groups="pdk" remote="github" revision="sc-v2" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" groups="pdk" remote="github" revision="sc-v2" />
