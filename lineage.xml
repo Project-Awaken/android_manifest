@@ -156,6 +156,7 @@
 
   <!-- System -->
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="LineageOS" />
+  <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" remote="LineageOS" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="LineageOS" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="LineageOS" />
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="LineageOS" revision="lineage-18.1" />
