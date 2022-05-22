@@ -71,6 +71,7 @@
   <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />

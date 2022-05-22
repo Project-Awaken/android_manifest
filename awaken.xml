@@ -86,6 +86,9 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="awaken" />
   <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" clone-depth="1" />
 
+  <!-- Aospa -->
+  <project path="external/zlib" name="AOSPA/android_external_zlib" remote="github" revision="sapphire" />
+
   <!-- GrapheneOS -->
   <project path="external/Apps" name="GrapheneOS/platform_external_Apps" remote="github" revision="12.1" />
   <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="12.1" />
