@@ -87,6 +87,8 @@
   <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" clone-depth="1" />
 
   <!-- Aospa -->
+  <project path="external/jemalloc_new" name="AOSPA/android_external_jemalloc-new" remote="github" revision="sapphire" />
+  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="github" revision="sapphire" />
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="github" revision="sapphire" />
 
   <!-- GrapheneOS -->
