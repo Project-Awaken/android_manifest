@@ -43,10 +43,10 @@
 
   <!-- Device -->
   <project path="device/awaken/sepolicy" name="android_device_awaken_sepolicy" remote="awaken" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="awaken" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,qssi" remote="awaken" />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="12.1-legacy" remote="awaken" />
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="12.1-legacy-um" remote="awaken" />
-  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="awaken" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="qcom,sdm660" revision="12.1-legacy-um" remote="awaken" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="awaken" />
 
   <!-- External -->
   <project path="external/faceunlock" name="android_external_faceunlock" remote="gitlab" />
