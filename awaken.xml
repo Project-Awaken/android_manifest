@@ -56,6 +56,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="awaken" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="awaken" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="awaken" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="awaken" />
 
   <!-- Hardware -->
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="awaken" />
