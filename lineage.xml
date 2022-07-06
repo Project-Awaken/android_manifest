@@ -31,6 +31,7 @@
   <!-- <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" clone-depth="1" remote="gitlab" revision="main" /> -->
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="qcom,pdk-qcom" remote="LineageOS" revision="lineage-18.1" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="LineageOS" />
+  <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="0df9f403bc99bb020d449c9b7c9a31db3f814bdd" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" groups="pdk" remote="LineageOS" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="LineageOS" />
   <project path="external/htop" name="LineageOS/android_external_htop" remote="LineageOS" />
