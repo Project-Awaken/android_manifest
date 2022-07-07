@@ -59,12 +59,17 @@
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="awaken" />
 
   <!-- Packages -->
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="awaken" />
+  <project path="packages/apps/AwakenWallpaperStub" name="android_packages_apps_AwakenWallpaperStub" remote="awaken" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="awaken" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="awaken" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="awaken" />
   <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="awaken" />
+  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="awaken" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="awaken" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="awaken" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="awaken" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="awaken" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="awaken" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="awaken" />
   <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="awaken" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="awaken" />
