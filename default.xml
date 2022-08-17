@@ -2,11 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-13.0.0_r4"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r4" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1167,4 +1168,9 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
+
+  <!-- awakenOS -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/awaken.xml" />
+  <include name="snippets/lineage.xml" />
 </manifest>

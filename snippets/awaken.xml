@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- GitLab -->
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- GitHub (Project-Awaken) -->
+  <remote  name="awaken"
+           fetch="https://github.com/Project-Awaken/"
+           revision="triton" />
+
+  <!-- GitLab (Project-Awaken) -->
+  <remote  name="awaken-gitlab"
+           fetch="https://gitlab.com/Project-Awaken/"
+           revision="triton" />
+
+  <!-- Rootdir -->
+  <project path="bionic" name="android_bionic" groups="pdk" remote="awaken" />
+  <project path="manifest" name="android_manifest" remote="awaken" />
+
+  <!-- Build -->
+  <project path="build/make" name="android_build" groups="pdk" remote="awaken" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="awaken" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/awaken/sepolicy" name="android_device_awaken_sepolicy" remote="awaken" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="awaken" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="awaken" revision="triton-legacy-um" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="awaken" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="awaken" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="awaken" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="awaken" />
+
+  <!-- Packages -->
+  <project path="packages/apps/AwakenWallpaperStub" name="android_packages_apps_AwakenWallpaperStub" remote="awaken" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="awaken" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="awaken" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="awaken" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="awaken" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="awaken" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="awaken" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="awaken" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" groups="pdk-fs" remote="awaken" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="awaken" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" groups="pdk" remote="awaken" />
+  <project path="packages/modules/Permission" name="android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="awaken" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="awaken" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="awaken" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="awaken" />
+
+  <!-- System -->
+  <project path="system/core" name="android_system_core" groups="pdk" remote="awaken" />
+  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="awaken" />
+
+  <!-- Vendor -->
+  <project path="vendor/awaken" name="android_vendor_awaken" remote="awaken" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="awaken-gitlab" clone-depth="1" />
+
+  <!-- ProtonAosp -->
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" groups="pdk" remote="github" revision="main" />
+</manifest>
