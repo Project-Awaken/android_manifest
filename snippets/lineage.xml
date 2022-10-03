@@ -42,7 +42,6 @@
   <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" remote="LineageOS" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="LineageOS" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="LineageOS" />
-  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="LineageOS" revision="lineage-18.1" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="LineageOS" />
   <project path="external/nano" name="LineageOS/android_external_nano" remote="LineageOS" />
   <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" remote="LineageOS" />
