@@ -5,9 +5,6 @@
            fetch="https://github.com/"
            revision="lineage-20.0" />
 
-  <!-- Bootable -->
-  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" remote="LineageOS" />
-
   <!-- CodeLinaro additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" remote="LineageOS" />
   <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-20.0-legacy-um" remote="LineageOS" />

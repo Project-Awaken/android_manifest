@@ -23,6 +23,9 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="awaken" />
   <project path="manifest" name="android_manifest" remote="awaken" />
 
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="awaken" />
+
   <!-- Build -->
   <project path="build/make" name="android_build" groups="pdk" remote="awaken" >
     <copyfile src="core/root.mk" dest="Makefile" />
