@@ -47,6 +47,7 @@
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="awaken" revision="triton-legacy-um" />
 
   <!-- External -->
+  <project path="external/faceunlock" name="android_external_faceunlock" remote="awaken-gitlab" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
   <!-- Frameworks -->
@@ -59,6 +60,7 @@
   <project path="packages/apps/AwakenWallpaperStub" name="android_packages_apps_AwakenWallpaperStub" remote="awaken" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="awaken" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="awaken" />
+  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="awaken" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="awaken" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="awaken" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="awaken" />
