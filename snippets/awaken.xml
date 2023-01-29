@@ -19,6 +19,9 @@
            fetch="https://gitlab.com/Project-Awaken/"
            revision="triton" />
 
+  <!--ART-->
+  <project path="art" name="android_art" groups="pdk" remote="awaken" />
+
   <!-- Rootdir -->
   <project path="bionic" name="android_bionic" groups="pdk" remote="awaken" />
   <project path="manifest" name="android_manifest" remote="awaken" />
@@ -47,8 +50,12 @@
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="awaken" revision="triton-legacy-um" />
 
   <!-- External -->
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" groups="pdk" remote="awaken" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="awaken-gitlab" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc_new" groups="pdk" remote="awaken" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" groups="pdk" remote="awaken" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+  <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="awaken" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="awaken" />

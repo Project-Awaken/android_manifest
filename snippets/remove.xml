@@ -45,6 +45,8 @@
   <!-- External -->
   <remove-project name="platform/external/android-nn-driver" />
   <remove-project name="platform/external/armnn" />
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/art" />
   <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cldr" />
@@ -52,10 +54,13 @@
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zlib" />
   <remove-project name="platform/libcore" />
   <remove-project name="platform/system/timezone" />
 
