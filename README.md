@@ -17,7 +17,7 @@ Prior to building, you will need basic knowledge of [Git](https://www.atlassian.
 1. Run the following commands to sync source
 
 ```
-repo init -u https://github.com/Project-Awaken/android_manifest -b triton
+repo init -u https://github.com/Project-Awaken/android_manifest -b triton --git-lfs
 ```
 2. To sync source, enter
 
