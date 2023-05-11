@@ -46,6 +46,7 @@
   <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" remote="LineageOS" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" remote="LineageOS" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="LineageOS" />
+  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="LineageOS" />
   <project path="external/vim" name="LineageOS/android_external_vim" remote="LineageOS" />
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="LineageOS" />
   <project path="external/zstd" name="LineageOS/android_external_zstd" remote="LineageOS" />
