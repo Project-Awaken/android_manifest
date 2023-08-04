@@ -92,6 +92,7 @@
   <!-- System -->
   <project path="system/core" name="android_system_core" groups="pdk" remote="awaken" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="awaken" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="awaken" />
 
   <!-- Vendor -->
   <project path="vendor/awaken" name="android_vendor_awaken" remote="awaken" />
