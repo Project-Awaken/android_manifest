@@ -59,6 +59,7 @@
   <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cldr" />
+  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/gptfdisk" />
