@@ -21,6 +21,7 @@
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="LineageOS" />
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" remote="LineageOS" />
   <project path="external/bash" name="LineageOS/android_external_bash" remote="LineageOS" />
+  <project path="external/cronet" name="LineageOS/android_external_cronet" groups="pdk" remote="LineageOS" />
   <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" remote="LineageOS" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="LineageOS" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" groups="pdk" remote="LineageOS" />
