@@ -86,6 +86,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/AwakenWallpaperStub" name="android_packages_apps_AwakenWallpaperStub" remote="awaken" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="awaken" />
   <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="awaken-gitea" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="awaken" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="awaken" />
@@ -107,6 +108,7 @@
 
   <!-- Vendor -->
   <project path="vendor/awaken" name="android_vendor_awaken" remote="awaken" />
+  <project path="vendor/awaken/certification" name="android_vendor_awaken_certification" remote="awaken-gitea" />
   <project path="vendor/gms" name="android_vendor_gms" remote="awaken-gitea" clone-depth="1" />
 
   <!-- ProtonAosp -->
